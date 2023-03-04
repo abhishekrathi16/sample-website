@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  padding: 0px 30px;
+}
+
+.header-logo {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  list-style: none;
+  padding: 10px;
+}
+
+/* body */
+.header {
+  height: 80vh;
+  width: 100vw;
+  background-image: url("./assets/pic3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-size: 100% 100%; */
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 6vh 12vw;
+  padding-top: 20vh;
+  padding-left: 20vw;
+}
+
+.body-text-major {
+  font-weight: 600;
+  font-size: 2.6rem;
+  width: 30vw;
+}
+
+.body-text-minor {
+  font-weight: 400;
+  font-size: 0.7rem;
+  width: 35vw;
+  padding: 2vh 0;
+}
+
+/* experience */
+.experience {
+  height: 90vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  padding: 6vh 12vw;
+  padding-left: 20vw;
+  padding-top: 16vh;
+}
+
+.exp-text-major {
+  font-weight: 600;
+  font-size: 1.8rem;
+  width: 60vw;
+}
+
+.line {
+  background-color: black;
+  margin: 10vh 0;
+  height: 1px;
+  width: 1rem;
+}
+
+.exp-text-minor {
+  font-weight: 300;
+  font-size: 0.8rem;
+  width: 60vw;
+}
+
+.exp-card-section {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  width: 26vh;
+  margin-right: 5vw;
+  height: 10vh;
+  line-height: 20px;
+  /* text-align: left; */
+}
+
+.card-heading {
+  font-weight: 500;
+  font-size: 0.7rem;
+  padding: 1vh 0;
+  text-align: left;
+  align-self: baseline;
+}
+
+.card-body {
+  font-weight: 300;
+  font-size: 0.6rem;
+  text-align: left;
+}
+
+.button {
+  margin-top: 2.5vh;
+  font-size: 0.4rem;
+  background-color: black;
+  color: white;
+  padding: 2px 6px;
+  align-self: baseline;
+  text-align: left;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* brands */
+.brand {
+  height: 70vh;
+  width: 100vw;
+  background-image: url("./assets/pic2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.brand-text-major {
+  font-weight: 600;
+  font-size: 1.8rem;
+  width: 50vw;
+}
+
+.brand-text-minor {
+  font-weight: 300;
+  font-size: 0.7rem;
+  width: 60vw;
+}
+
+.line-white {
+  background-color: white;
+  margin: 7vh 0;
+  height: 1px;
+  width: 1rem;
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  margin-right: 3vw;
+  font-size: 0.8rem;
+}
+
+/* stories */
+.stories {
+  height: 110vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  padding: 6vh 12vw;
+  padding-left: 20vw;
+  padding-top: 16vh;
+}
+
+.stories-header {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.stories-body {
+  font-weight: 300;
+  font-size: 0.7rem;
+  width: 60vw;
+}
+
+.card-grid {
+  display: grid;
+  /* grid-row: ; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.story-card {
+  margin-bottom: 10vh;
+}
+
+.image img {
+  width: 20vw;
+  height: 23vh;
+}
+
+.head {
+  padding-top: 4px;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+.author {
+  font-size: 0.5rem;
+  font-weight: 300;
+  padding-top: 2px;
+}
+
+.cookies{
+  width: 100vw;
+  height: 20vh;
+  margin-top: 20vh;
+  background-image: linear-gradient(to right,#079fdb, #8fdaf8);
+  font-family: 'Roboto',sans-serif;
+  color: white;
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-white{
+  margin: 0 12px;
+  padding: 12px 10px;
+  font-size: 0.6rem;
+  background-color: white;
+  color: black;
+  font-weight: 200;
+  text-align: left;
+}
+
+.button-white:hover{
+  cursor: pointer;
+}
+
+.footer{
+  background-color: black;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+}
+
+.logo-white{
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+  color: white;
+}
+
+.logo-white img{
+  height: 25px;
+  filter: invert(100%);
+  width: 25px;
+}
+
+.social-media{
+  margin-top: 5px;
+}
+
+.social-media a{
+  font-size: 0.4rem;
+  padding: 0px 2px;
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .header{
+    height: 60vh;
+  }
+  .body-text-major{
+    width: 20vw;
+  }
+  .experience{
+    height: 80vh;
+  }
+  .brand{
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .header{
+    height: 60vh;
+  }
+  .body-text-major{
+    width: 30vw;
+  }
+  .experience{
+    height: 80vh;
+  }
+  .brand{
+    height: 60vh;
+  }
+  .image img {
+    width: 20vw;
+    height: 15vh;
+  }
+  .stories{
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .header{
+    height: 70vh;
+  }
+  .navbar{
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  .header-logo {
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .body-text-major{
+    width: 80%;
+  }
+  .body-text-minor{
+    width: 70%;
+  }
+  .experience{
+    height: 120vh;
+  }
+  .brand{
+    height: 70vh;
+  }
+  .brands{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .name{
+    margin: 1vh 0;
+  }
+  .stories{
+    height: 80vh;
+  }
+  .card-grid {
+    display: grid;
+    /* grid-row: ; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .story-card {
+    margin-bottom: 10vh;
+  }
+  
+  .image img {
+    width: 20vw;
+    height: 10vh;
+  }
+  
+  .head {
+    padding-top: 4px;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding-right: 40px;
+  }
+  .author {
+    font-size: 0.5rem;
+    font-weight: 300;
+    padding-top: 2px;
+  }
+  .cookies{
+    flex-direction: column;
+    height: 30vh;
+  }
+  .button-white{
+    margin-top: 20px;
+  }
+}
